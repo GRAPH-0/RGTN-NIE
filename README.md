@@ -29,3 +29,17 @@ Download the feature files and put them on 'datasets'.
 * run `sh train_two_batch.sh` for RGTN in IMDB (minibatch training)
 
 Note that hyperparameters may require grid search in small datasets.
+
+
+## Citation
+If you find our work useful for your reseach, please consider citing this paper:
+```bibtex
+@inproceedings{Huang21RGTN-NIE,
+  author    = {Han Huang and Leilei Sun and Bowen Du and Chuanren Liu and Weifeng Lv and Hui Xiong},
+  title     = {Representation Learning on Knowledge Graphs for Node Importance Estimation},
+  booktitle = {{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining, Virtual Event, Singapore, August 14-18, 2021},
+  pages     = {646--655},
+  publisher = {{ACM}},
+  year      = {2021}
+}
+```
